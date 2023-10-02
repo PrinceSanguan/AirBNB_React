@@ -1,0 +1,64 @@
+/*Style for All*/
+
+* {
+  margin: 0;
+}
+
+/*Style for Header*/
+
+.header--container {
+  background-color: blueviolet;
+  padding: 20px;
+}
+
+.header--container > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.header--logo,
+.header--container {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*Style for Navbar*/
+
+.navbar--container {
+  padding: 12px;
+}
+
+.navbar--container > ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+
+.navbar--container > ul > li {
+  padding-right: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+/*Style for Main*/
+
+.main--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 60px;
+  background-color: pink;
+  color: blueviolet;
+  font-weight: bolder;
+}
+
+/*Style for Footer*/
+.footer--container {
+  background-color: blueviolet;
+  padding: 11px;
+}
